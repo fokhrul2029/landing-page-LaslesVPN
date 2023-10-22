@@ -472,3 +472,59 @@ header .right-menu .btn-signup:hover {
   line-height: 30px; /* 187.5% */
   text-align: left;
 }
+/* ============= Footer Section CSS Start ================= */
+.footer-section {
+  padding: 50px 0;
+}
+.footer-section .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-section .footer-wraper {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-section .footer-col p {
+  max-width: 340px;
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.footer-section .footer-col span {
+  color: #afb5c0;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  display: block;
+  text-align: left;
+}
+.footer-section .footer-wraper h2 {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  padding: 10px 0 15px 0;
+}
+.footer-section .footer-wraper p {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  padding: 5px 0;
+  cursor: pointer;
+}
