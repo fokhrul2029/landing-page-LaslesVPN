@@ -472,6 +472,65 @@ header .right-menu .btn-signup:hover {
   line-height: 30px; /* 187.5% */
   text-align: left;
 }
+.customer-section .news-leater {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 70px;
+  box-shadow: 0 0 5px 0px #00000023;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+}
+.customer-section .news-leater1 {
+  flex-basis: 50%;
+  text-align: left;
+}
+.customer-section .news-leater1 h1 {
+  text-align: left;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 128.571% */
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+.customer-section .news-leater1 p {
+  text-align: left;
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+.customer-section .news-leater2 {
+  flex-basis: 50%;
+  text-align: right;
+}
+.customer-section .news-leater2 button {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 156.25% */
+  border-radius: 10px;
+  background: #f53838;
+  padding: 17px 65px;
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.151);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.customer-section .news-leater2 button:hover {
+  background-color: white;
+  color: crimson;
+  border: 1px solid crimson;
+}
 /* ============= Footer Section CSS Start ================= */
 .footer-section {
   padding: 50px 0;
